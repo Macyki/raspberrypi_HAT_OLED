@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mv/桌面/raspberry pi/RASPBERRY PI.sch</source>
+    <date>2017年09月30日 星期六 10时54分43秒</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu17.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RASPBERRY PI.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>Raspberry_Pi_B+</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x20</footprint>
+      <libsource lib="conn" part="Raspberry_Pi_2_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4550E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DS1302</value>
+      <footprint>Power_Integrations:SO-8</footprint>
+      <libsource lib="kicad_lib_save_as" part="DS1302"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C45CEF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C45DA3</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>CR1220-3V</value>
+      <footprint>Connectors:CR2032H</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C45FE1</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>E1WSDA12-32.768KHZ</value>
+      <footprint>Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm</footprint>
+      <libsource lib="RASPBERRY PI-rescue" part="E1WSDA12-RESCUE-RASPBERRY_PI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C46A65</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>CIZHU_121R/6A</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C48290</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SAA5.0</value>
+      <footprint>Diodes_SMD:DO-214AB</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4847F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4A67C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4A708</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4B717</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4B918</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Test_Point</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4BB4B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CP3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4C7BF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CP3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4CAEC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CP3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4CB2F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CP3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4CF57</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF/10V/TAN</value>
+      <footprint>Capacitors_SMD:C_1812</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4CF98</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>XH2.0-7P</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x07_Pitch2.00mm</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CONN_01X07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4E7AE</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>XH2.54-4P</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x04</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4EF27</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>XH2.54-4P</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x04</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4EF80</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>XH2.54-4P</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x04</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4F313</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>XH3.81-2P</value>
+      <footprint>Connectors_Phoenix:PhoenixContact_MC-G_02x3.81mm_Angled</footprint>
+      <libsource lib="RASPBERRY PI-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4FD91</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery">
+      <description>Battery (multiple cells)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RASPBERRY PI-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RASPBERRY PI-cache" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RASPBERRY PI-cache" part="CONN_01X07">
+      <footprints>
+        <fp>Pin_Header_Straight_1X07</fp>
+        <fp>Pin_Header_Angled_1X07</fp>
+        <fp>Socket_Strip_Straight_1X07</fp>
+        <fp>Socket_Strip_Angled_1X07</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RASPBERRY PI-cache" part="CP3">
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_lib_save_as" part="DS1302">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS1302</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC2" type="input"/>
+        <pin num="2" name="X1" type="input"/>
+        <pin num="3" name="X2" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="CE" type="input"/>
+        <pin num="6" name="I/O" type="input"/>
+        <pin num="7" name="SCLK" type="input"/>
+        <pin num="8" name="BAT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RASPBERRY PI-rescue" part="E1WSDA12-RESCUE-RASPBERRY_PI">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">E1WSDA12-RESCUE-RASPBERRY_PI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Raspberry_Pi_2_3">
+      <description>expansion header for Raspberry Pi 2 &amp; 3</description>
+      <docs>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Raspberry_Pi_2_3</field>
+        <field name="Footprint">Pin_Headers:Pin_Header_Straight_2x20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="5V" type="passive"/>
+        <pin num="3" name="(SDA1)_GPIO2" type="BiDi"/>
+        <pin num="4" name="5V" type="passive"/>
+        <pin num="5" name="(SCL1)_GPIO3" type="BiDi"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="(GCLK)_GPIO4" type="BiDi"/>
+        <pin num="8" name="(TXD0)_GPIO14" type="BiDi"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="(RXD0)_GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO17_(GEN0)" type="BiDi"/>
+        <pin num="12" name="GPIO18_(GEN1)" type="BiDi"/>
+        <pin num="13" name="GPIO27_(GEN2)" type="BiDi"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="GPIO22_(GEN3)" type="BiDi"/>
+        <pin num="16" name="GPIO23_(GEN4)" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="GPIO24_(GEN5)" type="BiDi"/>
+        <pin num="19" name="(SPI_MOSI)_GPIO10" type="BiDi"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="(SPI_MISO)_GPIO9" type="BiDi"/>
+        <pin num="22" name="GPIO25_(GEN6)" type="BiDi"/>
+        <pin num="23" name="(SPI_SCLK)_GPIO11" type="BiDi"/>
+        <pin num="24" name="(~SPI_CE0~)_GPIO8" type="BiDi"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="(~SPI_CE1~)_GPIO7" type="BiDi"/>
+        <pin num="27" name="ID_SD" type="BiDi"/>
+        <pin num="28" name="ID_SC" type="BiDi"/>
+        <pin num="29" name="GPIO5" type="BiDi"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GPIO6" type="BiDi"/>
+        <pin num="32" name="GPIO12" type="BiDi"/>
+        <pin num="33" name="GPIO13" type="BiDi"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="GPIO19" type="BiDi"/>
+        <pin num="36" name="GPIO16" type="BiDi"/>
+        <pin num="37" name="GPIO26" type="BiDi"/>
+        <pin num="38" name="GPIO20" type="BiDi"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="GPIO21" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TEST">
+      <description>Testpoint, connection for test equipment</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RASPBERRY PI-rescue">
+      <uri>/home/mv/桌面/raspberry pi/RASPBERRY PI-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="kicad_lib_save_as">
+      <uri>/home/mv/pinecone-datalogger/Pinecone_Logger_kicad_project/kicad_lib_save_as.lib</uri>
+    </library>
+    <library logical="RASPBERRY PI-cache">
+      <uri>/home/mv/桌面/raspberry pi/RASPBERRY PI-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="FB1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P5" pin="3"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="17"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P4" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="3" name="SDA">
+      <node ref="P4" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="RXD">
+      <node ref="P3" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="5" name="TXD">
+      <node ref="U1" pin="8"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="6" name="PIN_7">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="SCL">
+      <node ref="P4" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="8" name="PIN_15">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="9" name="/RTC_IO">
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="12" name="Net-(P5-Pad2)">
+      <node ref="P5" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="U2" pin="4"/>
+      <node ref="X1" pin="3"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U1" pin="34"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P4" pin="4"/>
+      <node ref="P5" pin="4"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="18" name="/SPI_MOSI">
+      <node ref="P2" pin="4"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="20" name="/RTC_CE">
+      <node ref="P2" pin="5"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="21" name="/RTC_SCLK">
+      <node ref="U2" pin="7"/>
+      <node ref="P2" pin="6"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="24" name="/SPI_CS">
+      <node ref="U1" pin="24"/>
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="25" name="/SPI_SCLK">
+      <node ref="P2" pin="3"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="26" name="Net-(BT1-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="35" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="FB1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C4-Pad1)">
+      <node ref="X1" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C3-Pad1)">
+      <node ref="X1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+  </nets>
+</export>
